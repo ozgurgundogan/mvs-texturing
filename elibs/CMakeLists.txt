@@ -20,8 +20,8 @@ externalproject_add(ext_rayint
     INSTALL_COMMAND ""
 )
 
-externalproject_add(ext_rayint
-    PREFIX          ext_rayint
+externalproject_add(ext_eigen
+    PREFIX          ext_eigen
     SOURCE_DIR      ${CMAKE_SOURCE_DIR}/elibs/eigen
     CONFIGURE_COMMAND ""
     BUILD_COMMAND   ""
